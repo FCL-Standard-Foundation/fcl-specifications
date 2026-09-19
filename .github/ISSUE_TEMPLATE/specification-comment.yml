@@ -1,0 +1,61 @@
+name: Specification Comment
+description: Comment on draft specification text (editorial or substantive).
+title: "[Spec] "
+labels: ["specification-comment"]
+body:
+  - type: dropdown
+    id: affected_document
+    attributes:
+      label: Affected document
+      description: Which specification document does this concern?
+      options:
+        - FCL-CORE
+        - FCL-RSL-BINDING
+        - FCL-REGISTRY-MARK
+        - FCL-CERTIFICATION-RULES
+        - Other / multiple
+      multiple: false
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Section number or heading (e.g. §3.2, Open issues item 5).
+      placeholder: "§"
+    validations:
+      required: true
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current text
+      description: Quote or paraphrase the relevant passage.
+      placeholder: Paste or summarize the current wording.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+      description: What is unclear, incorrect, incomplete, or problematic?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_resolution
+    attributes:
+      label: Proposed resolution
+      description: Suggested clarification or change (optional but helpful).
+    validations:
+      required: false
+  - type: dropdown
+    id: normative_impact
+    attributes:
+      label: Normative impact
+      description: Best estimate of whether this would change requirements.
+      options:
+        - none
+        - editorial
+        - substantive
+        - unknown
+    validations:
+      required: true

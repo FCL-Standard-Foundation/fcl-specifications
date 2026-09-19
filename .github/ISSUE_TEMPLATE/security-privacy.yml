@@ -1,0 +1,50 @@
+name: Security / Privacy Issue
+description: Non-sensitive public discussion only. Sensitive reports go to SECURITY.md.
+title: "[Security] "
+labels: ["security", "privacy"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Sensitive reports
+
+        **Do not post** exploit details, credentials, personal data, or other sensitive material in this public form.
+
+        Report sensitive security or privacy issues **privately** as described in [SECURITY.md](../../SECURITY.md) (email **info@fclstandard.org**). Prefer coordinated disclosure.
+
+        Use this form only for **non-sensitive** discussion (e.g. clarifying published security considerations in the drafts).
+  - type: dropdown
+    id: sensitivity
+    attributes:
+      label: Confirmation
+      options:
+        - This issue contains no sensitive exploit details or private data; I have read SECURITY.md
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Non-sensitive summary
+      description: High-level description suitable for public discussion.
+    validations:
+      required: true
+  - type: dropdown
+    id: related_document
+    attributes:
+      label: Related document (if any)
+      options:
+        - FCL-CORE
+        - FCL-RSL-BINDING
+        - FCL-REGISTRY-MARK
+        - FCL-CERTIFICATION-RULES
+        - Repository / process
+        - Unsure
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Section numbers or links to public text only.
+    validations:
+      required: false

@@ -1,0 +1,33 @@
+name: Interoperability Proposal
+description: Propose a mapping or alignment with an external standard or system.
+title: "[Interop] "
+labels: ["interoperability"]
+body:
+  - type: input
+    id: external_standard
+    attributes:
+      label: External standard or system
+      description: Name and, if possible, version or specification URL.
+    validations:
+      required: true
+  - type: input
+    id: fcl_construct
+    attributes:
+      label: Relevant FCL construct
+      description: e.g. Permission Profile field, Authority Claim, Layer 8, Reliance Receipt, mark display.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_mapping
+    attributes:
+      label: Proposed mapping
+      description: How should concepts align? Include examples if helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: conflict_precedence
+    attributes:
+      label: Conflict / precedence concerns
+      description: Known conflicts, ordering, or which artifact should win when they disagree.
+    validations:
+      required: false

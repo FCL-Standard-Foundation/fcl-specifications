@@ -1,0 +1,46 @@
+name: Implementation Question
+description: Ask how a draft specification should be interpreted when implementing.
+title: "[Impl] "
+labels: ["implementation-question"]
+body:
+  - type: dropdown
+    id: specification
+    attributes:
+      label: Specification
+      options:
+        - FCL-CORE
+        - FCL-RSL-BINDING
+        - FCL-REGISTRY-MARK
+        - FCL-CERTIFICATION-RULES
+        - Other / multiple
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Document version you are reading (e.g. 0.1.2).
+      placeholder: "0.1.2"
+    validations:
+      required: true
+  - type: textarea
+    id: implementation_context
+    attributes:
+      label: Implementation context
+      description: What are you building (profile publisher, registry, verifier, tooling)? No endorsement is implied by filing this issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What does the draft appear to require or allow?
+    validations:
+      required: true
+  - type: textarea
+    id: observed_ambiguity
+    attributes:
+      label: Observed ambiguity or problem
+      description: Where does the text underspecify, conflict, or surprise?
+    validations:
+      required: true
