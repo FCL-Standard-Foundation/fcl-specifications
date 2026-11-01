@@ -56,7 +56,7 @@ Publication of a draft here does **not** imply product endorsement, vendor certi
 
 ## Website
 
-https://fclstandard.org
+https://www.fclstandard.org
 
 ## Contact
 
