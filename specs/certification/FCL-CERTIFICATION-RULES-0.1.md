@@ -229,6 +229,28 @@ The Foundation MAY operate services of its own.
 
 Where it does, those services MUST be evaluated under the same published certification requirements.
 
+7\. Economic transparency, audits, suspension, and appeals
+
+The title of this document names economic transparency, audits, suspension, and appeals. Sections 1 through 6 above are the text published for comment. No further rule text for the topics below is published in this repository or on the FCL Standard Foundation website (pages checked on 1 November 2026: https://www.fclstandard.org/fcl-certification-rules, https://www.fclstandard.org/certification, https://www.fclstandard.org/governance, and https://www.fclstandard.org/documents).
+
+The four sections that follow are placeholders for the custodian to fill. They are not certification rules.
+
+7.1 Economic transparency
+
+**Reserved - to be specified.**
+
+7.2 Audits
+
+**Reserved - to be specified.**
+
+7.3 Suspension
+
+**Reserved - to be specified.**
+
+7.4 Appeals
+
+**Reserved - to be specified.**
+
 Except where otherwise noted, **FCL-CERTIFICATION-RULES-0.1** is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 Copyright © 2026 FCL Standard Foundation.

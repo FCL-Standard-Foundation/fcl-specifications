@@ -1712,6 +1712,8 @@ Architecture and reliance revision.
 
 - Added explicit protection for independently lawful use, including
 
+> **Editorial note — not part of the published change log.** This bullet ends mid-sentence in the repository and on https://www.fclstandard.org/specification (retrieved 1 November 2026). The file was imported already truncated (commit `2e322df`, 19 September 2026). Git history does not contain the rest of the sentence, so it is not reconstructed here.
+
 **License**
 
 Except where otherwise noted, FCL-CORE-0.1.2 is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
